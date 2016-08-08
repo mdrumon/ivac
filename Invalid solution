@@ -1,0 +1,12 @@
+// ==UserScript==
+// @name        Invalid solution
+// @namespace   Invalid
+// @description Coded by Rumon
+// @include     http://indianvisa-bangladesh.nic.in/visa*
+// @include     https://indianvisa-bangladesh.nic.in/visa*
+// @version     1
+// @grant       none
+// ==/UserScript==
+('input[type="Online Regestration"]')('form[name="OnlineForm"]').removeAttr('Confirm The Appointment').attr('Block Invalid','_blank');
+('input[type="allotment"]')('form[name="allotment"]').removeAttr('Invalid.html').attr('Block Invalid','_blank');
+document.getElementsByClassName('textBoxDashed1')[0].remove('Invalid.html','_blank);
